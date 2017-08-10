@@ -1,0 +1,13 @@
+// Skill and progress bar
+.skill {
+	text-transform: uppercase;
+	.skill-title {
+		font-size: 0.8em;
+		padding-top: 8px;
+	}
+
+	.skill-bar {
+		height: 4px;
+		background: linear-gradient(to right, $primary-color, $secondary-color);
+	}
+}

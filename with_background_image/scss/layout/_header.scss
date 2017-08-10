@@ -1,0 +1,19 @@
+/*  Header Styles */
+.header {
+	background: $primary-color;
+	background-image: linear-gradient(to bottom right, rgba(68, 81, 180, .8), rgba(249, 65, 131, .8)), url(../img/bgimg.jpg);
+	background-size: cover;
+	height: 100%;
+}
+
+@media (max-width: $screen-sm-min) {
+	.header {
+		height: auto;
+		font-size: 10px;
+		letter-spacing: -0.05em;
+	}
+}
+
+
+@import "../modules/navbar";
+@import "../modules/intro";

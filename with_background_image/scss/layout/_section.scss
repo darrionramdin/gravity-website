@@ -1,0 +1,10 @@
+/* Section */
+.section {
+	padding: 100px 0;
+}
+
+/* Creates a section filled with the gradient color */
+.section-filled {
+	background: linear-gradient(to bottom right, $primary-color, $secondary-color);
+	color: white;
+}

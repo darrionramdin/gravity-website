@@ -1,0 +1,18 @@
+/*  Header Styles */
+.header {
+	background: $primary-color;
+	background: linear-gradient(to bottom right, $primary-color, $secondary-color);
+	height: 100%;
+}
+
+@media (max-width: $screen-sm-min) {
+	.header {
+		height: auto;
+		font-size: 10px;
+		letter-spacing: -0.05em;
+	}
+}
+
+
+@import "../modules/navbar";
+@import "../modules/intro";

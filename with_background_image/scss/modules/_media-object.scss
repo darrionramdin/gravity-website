@@ -1,0 +1,98 @@
+/* Media Object Start */
+.media {
+	padding-bottom: 20px;
+	.media-left {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.media-image {
+		img {
+			height: 200px;
+			width: auto;
+		}
+
+		.media-image-overlay {
+			position: absolute;
+			top: 0;
+
+			.media-badge {
+				margin: 15px;
+			}
+		}
+	}
+
+	.media-body {
+
+		.media-heading {
+			font-size: 24px;
+			padding-bottom: 15px;
+		}
+
+		.media-sub-heading {
+			font-size: 16px;
+			font-weight: 600;
+		}
+
+		p {
+			font-size: 13.5px;
+			padding-bottom: 15px;
+		}
+	}
+
+	.media-meta {
+		padding: 5px 0;
+		font-size: 14px;
+		font-weight: 300;
+		text-transform: uppercase;
+
+		span {
+			margin-right: 10px;
+		}
+	}
+
+	.media-badge {
+		display: inline-block;
+		color: white;
+		font-weight: 600;
+		font-size: 12px;
+		text-transform: uppercase;
+		padding: 0 8px;
+		background-color: $secondary-color;
+	}
+
+	.media-icon {
+		font-size: 50px;
+		color: $secondary-color;
+		padding-bottom: 10px;
+	}
+
+	.media-link {
+		a {
+			color: #333;
+			font-weight: 600;
+			font-size: 14px;
+			padding-right: 5px;
+
+			&:hover {
+				color: $secondary-color;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+@media (max-width: $screen-sm-min) {
+	.media {
+		.media-body {
+			padding-bottom: 15px;
+			.media-heading {
+				padding: 50px 0 15px 0;
+			}
+		}
+	}
+}
+
+/* Media Object End */

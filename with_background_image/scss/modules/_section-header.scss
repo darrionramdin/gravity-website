@@ -1,0 +1,32 @@
+/* Section Header Start */
+.section-heading {
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	overflow: hidden;
+	padding-bottom: 80px;
+
+	&:before, &:after {
+		background-color: $secondary-color;
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: relative;
+		vertical-align: middle;
+		width: 6%;
+	}
+
+	&:before {
+		right: 0.5em;
+ 		margin-left: -50%;
+	}
+
+	&:after {
+		left: 0.5em;
+ 		margin-right: -50%;
+	}
+}
+
+/* Section Header End */

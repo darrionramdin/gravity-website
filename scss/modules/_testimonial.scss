@@ -1,0 +1,37 @@
+/* Testimonial Start */
+.testimonial {
+	text-align: center;
+
+	.testimonial-icon {
+		padding-bottom: 20px;
+		img {
+			width: 15%;
+			height: auto;
+			border: 2px solid white;
+			border-radius: 50%;
+			padding: 15px;
+		}
+	}
+
+	.testimonial-body {
+		color: white;
+		font-size: 14px;
+		font-style: italic;
+	}
+
+	.testimonial-author {
+		color: white;
+		font-weight: 700;
+
+		&:before {
+			content: "- ";
+		}
+	}
+}
+
+@media (max-width: $screen-sm-min) {
+	.testimonial {
+		margin-bottom: 40px;
+	}
+}
+/* Testimonial End */

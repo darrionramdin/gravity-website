@@ -1,0 +1,34 @@
+.header#home
+		nav.navbar.navbar-default
+			.container
+				.navbar-header
+					button(type="button", data-toggle="collapse", data-target="#nav-mobile-menu", aria-expanded="false").navbar-toggle.collapsed
+						span.icon-bar.top-icon-bar
+						span.icon-bar.middle-icon-bar
+						span.icon-bar.bottom-icon-bar
+					a(href="#").navbar-brand Gravity
+				.collapse.navbar-collapse#nav-mobile-menu
+					ul.nav.navbar-nav.navbar-right
+						li
+							a(href="#home", data-scroll="home") Home
+						li
+							a(href="#about-me", data-scroll="about-me") About
+						li
+							a(href="#resume", data-scroll="resume") Resume
+						li
+							a(href="#portfolio", data-scroll="portfolio") Portfolio
+						li
+							a(href="#services", data-scroll="services") Service
+						li
+							a(href="#blog", data-scroll="blog") Blog
+						li
+							a(href="#contact", data-scroll="contact") Contact
+		.intro.text-center
+			span.intro-lead Hello I'm
+			h1.intro-h1 Jonathan Doe
+			h3.intro-h3 Professional   
+				span.intro-placeholder 
+				span.cursor |
+		a(href="#", data-scroll="about-me").scroll-icon
+			.mouse-icon
+				.scroll-wheel

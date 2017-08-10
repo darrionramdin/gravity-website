@@ -1,0 +1,15 @@
+/* Skill Ratings Start */
+.skill-rating {
+	padding-bottom: 20px;
+}
+
+@media (max-width: $screen-sm-min) {
+	.skill-rating {
+		padding: 40px 0 10px 0;
+	}
+}
+
+
+@import "skill";
+
+/* Skill Ratings End */
