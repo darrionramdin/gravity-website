@@ -1,5 +1,6 @@
 # Gravity Website
 Gravity is a one page scrolling website built with HTML, CSS, Bootstrap and JQuery.
+[Preview](https://darrionramdin.github.io/gravity-website/)
 
 ### Features
 * One page scrolling with smooth scroll and scrolling navigation
